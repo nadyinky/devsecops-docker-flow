@@ -1,3 +1,11 @@
+# DevSecOps pipeline for PyGoat app
+
+Using GitHub actions built a CI pipeline doing Static Application Security Testing (SAST) and then scanning the 
+Docker image with Docker Scout. The scan reports are saved in `.json` and `.sarif` formats so that they can be collected 
+and used with other Vulnerability Management Tools.
+
+___
+
 # PyGoat
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
